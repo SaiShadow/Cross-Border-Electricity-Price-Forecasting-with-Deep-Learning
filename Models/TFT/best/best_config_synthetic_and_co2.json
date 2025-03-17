@@ -1,0 +1,38 @@
+{
+    "stat_exog_list": [],
+    "hist_exog_list": [
+        "month_sin",
+        "month_cos",
+        "day_of_week_sin",
+        "day_of_week_cos",
+        "hour_sin",
+        "hour_cos",
+        "is_holiday",
+        "is_weekend",
+        "gas_price",
+        "synthetic_price",
+        "co2_emission_allowances"
+    ],
+    "futr_exog_list": [
+        "month_sin",
+        "month_cos",
+        "day_of_week_sin",
+        "day_of_week_cos",
+        "hour_sin",
+        "hour_cos",
+        "is_holiday",
+        "is_weekend"
+    ],
+    "input_size": 168,
+    "max_steps": 7000,
+    "step_size": 1,
+    "learning_rate": 0.000635673728303938,
+    "scaler_type": "robust",
+    "batch_size": 64,
+    "windows_batch_size": 16,
+    "random_seed": 16,
+    "hidden_size": 256,
+    "n_head": 16,
+    "grn_activation": "Softplus",
+    "h": 24
+}
