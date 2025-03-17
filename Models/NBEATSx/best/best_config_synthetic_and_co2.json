@@ -1,0 +1,62 @@
+{
+    "stat_exog_list": [],
+    "hist_exog_list": [
+        "month_sin",
+        "month_cos",
+        "day_of_week_sin",
+        "day_of_week_cos",
+        "hour_sin",
+        "hour_cos",
+        "is_holiday",
+        "is_weekend",
+        "gas_price",
+        "synthetic_price",
+        "co2_emission_allowances"
+    ],
+    "futr_exog_list": [
+        "month_sin",
+        "month_cos",
+        "day_of_week_sin",
+        "day_of_week_cos",
+        "hour_sin",
+        "hour_cos",
+        "is_holiday",
+        "is_weekend"
+    ],
+    "input_size": 168,
+    "max_steps": 900,
+    "step_size": 1,
+    "batch_size": 128,
+    "learning_rate": 0.0001170286729315275,
+    "random_seed": 3,
+    "scaler_type": "robust",
+    "windows_batch_size": 1024,
+    "n_harmonics": 3,
+    "n_polynomials": 4,
+    "stack_types": [
+        "identity",
+        "trend",
+        "seasonality"
+    ],
+    "n_blocks": [
+        1,
+        1,
+        1
+    ],
+    "mlp_units": [
+        [
+            8192,
+            8192
+        ],
+        [
+            8192,
+            8192
+        ],
+        [
+            8192,
+            8192
+        ]
+    ],
+    "activation": "SELU",
+    "h": 24
+}

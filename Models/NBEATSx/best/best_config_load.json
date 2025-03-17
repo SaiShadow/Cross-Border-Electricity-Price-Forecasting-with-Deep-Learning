@@ -1,0 +1,63 @@
+{
+    "stat_exog_list": [],
+    "hist_exog_list": [
+        "month_sin",
+        "month_cos",
+        "day_of_week_sin",
+        "day_of_week_cos",
+        "hour_sin",
+        "hour_cos",
+        "is_holiday",
+        "is_weekend",
+        "gas_price",
+        "load",
+        "co2_emission_allowances",
+        "synthetic_price"
+    ],
+    "futr_exog_list": [
+        "month_sin",
+        "month_cos",
+        "day_of_week_sin",
+        "day_of_week_cos",
+        "hour_sin",
+        "hour_cos",
+        "is_holiday",
+        "is_weekend"
+    ],
+    "input_size": 168,
+    "max_steps": 3300,
+    "step_size": 1,
+    "batch_size": 64,
+    "learning_rate": 0.00042652208423793437,
+    "random_seed": 18,
+    "scaler_type": "robust",
+    "windows_batch_size": 128,
+    "n_harmonics": 1,
+    "n_polynomials": 2,
+    "stack_types": [
+        "identity",
+        "trend",
+        "seasonality"
+    ],
+    "n_blocks": [
+        1,
+        1,
+        1
+    ],
+    "mlp_units": [
+        [
+            4096,
+            4096
+        ],
+        [
+            4096,
+            4096
+        ],
+        [
+            4096,
+            4096
+        ]
+    ],
+    "activation": "Sigmoid",
+    "h": 24
+}
