@@ -1,25 +1,26 @@
 # Cross-Border Electricity Price Forecasting with Deep Learning  
 
-
-This repository contains the implementation for “Cross-Border Electricity Price Forecasting with 
-Deep Learning”, a Bachelor’s thesis conducted at Karlsruhe Institute of Technology (KIT). 
+This repository contains the implementation for **“Cross-Border Electricity Price Forecasting with 
+Deep Learning”**, a Bachelor’s thesis conducted at Karlsruhe Institute of Technology (KIT). 
 The study systematically evaluates multiple deep learning models for day-ahead electricity price 
 forecasting (DAEPF) in the Germany-Luxembourg (DE-LU) bidding zone, leveraging data from 15 
 European bidding zones.  
 
 ## Thesis Overview  
 
-The study compares various deep learning architectures for forecasting electricity prices 
+This study compares various deep learning architectures for forecasting electricity prices 
 and evaluates their generalization capabilities across multiple bidding zones. The key aspects of 
 this work include:  
 
-- Benchmarking deep learning models: NHITS, NBEATSx, TFT, VT, LSTM, and Mamba.  
-- Learning strategies: Zero-shot, one-shot (correct & wrong), and few-shot (4 weeks & 30 days).  
-- Feature stages: Calendar features, gas prices, load data, synthetic price estimates, CO₂ emissions, load, renewable and non-renewable generation, and cross-border trading data.  
-- Hyperparameter optimization: Automated tuning to select the best-performing models.  
-- Reproducibility: Storing optimized configurations for later use in transfer learning.  
+- **Benchmarking deep learning models**: NHITS, NBEATSx, TFT, VT, LSTM, and Mamba.  
+- **Learning strategies**: Zero-shot, one-shot (correct and incorrect configuration), and few-shot (4 weeks & 30 days).  
+- **Feature stages**: Calendar features, gas prices, load data, synthetic price estimates, CO₂ emissions, load, renewable and non-renewable generation, and cross-border trading data.  
+- **Hyperparameter optimization**: Automated tuning to select the best-performing models.  
+- **Reproducibility**: Storing optimized configurations for later use in transfer learning.  
 
-The implementation trains, optimizes, and evaluates different deep learning models to determine the most effective forecasting approach.  
+This implementation systematically trains, optimizes, and evaluates multiple deep learning models to identify the most effective forecasting approach.  
+
+> **Note**: To improve scrollability, the outputs of test cells and some training cells have been removed as they were very long and hindered readability.
 
 
 ## Repository Structure
@@ -47,11 +48,9 @@ The `Models/` folder is organized as follows:
   - **Hyperparameter Optimization/** (except Mamba): Holds the logic and individual notebooks for optimizing hyperparameters on multiple exogenous feature stages.
   - **best/**: Stores the best-optimized configurations of the model, tuned for the corresponding exogenous feature stage.
 
-- **Transfer_Learning/**: Includes subfolders for models that undergo transfer learning (`NBEATSx`, `NHITS`, `TFT`, `VT`). Each of these models is evaluated on different learning strategies.
+- **Transfer Learning/**: Includes subfolders for models that undergo transfer learning (`NBEATSx`, `NHITS`, `TFT`, `VT`). Each of these models is evaluated on different learning strategies.
 
 This structured organization ensures clear separation of baseline models, hyperparameter tuning, and transfer learning experiments, making it easier to navigate and reproduce results.
 
 
-### Repository Remarks  
 
-To improve scrolability, the outputs of test cells, and some training cells, have been removed as they were very long and hindered readability.  
