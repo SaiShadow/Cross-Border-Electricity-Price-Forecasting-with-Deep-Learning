@@ -35,7 +35,7 @@ The `data/` folder is organized as follows:
 
 - **Plots/**: Contains Jupyter notebooks for visualizing the training and testing datasets.
 
-- **Forecast_Missing_Values/**: Includes the logic and methods used to forecast missing exogenous features, as described in the thesis.
+- **Forecast Missing Values/**: Includes the logic and methods used to forecast missing exogenous features, as described in the thesis.
 
 ### Model Folder Structure
 
