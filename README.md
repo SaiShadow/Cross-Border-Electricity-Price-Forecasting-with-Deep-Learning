@@ -12,7 +12,7 @@ This study compares various deep learning architectures for forecasting electric
 and evaluates their generalization capabilities across multiple bidding zones. The key aspects of 
 this work include:  
 
-- **Benchmarking deep learning models**: NHITS, NBEATSx, TFT, VT, LSTM, and Mamba.  
+- **Benchmarking deep learning models**: Neural Basis Expansion Analysis with Exogenous Variables (NBEATSx), Neural Hierarchical Interpolation for Time Series (NHITS), Long Short-Term Memory (LSTM), Temporal Fusion Transformer (TFT), Vanilla Transformer (VT), and Mamba
 - **Learning strategies**: Zero-shot, one-shot (correct and incorrect configuration), and few-shot (4 weeks & 30 days).  
 - **Feature stages**: Calendar features, gas prices, load data, synthetic price estimates, CO₂ emissions, load, renewable and non-renewable generation, and cross-border trading data.  
 - **Hyperparameter optimization**: Automated tuning to select the best-performing models.  
