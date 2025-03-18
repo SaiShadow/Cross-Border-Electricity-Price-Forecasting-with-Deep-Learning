@@ -1,7 +1,7 @@
 # Cross-Border Electricity Price Forecasting with Deep Learning  
 
-This repository contains the implementation for **“Cross-Border Electricity Price Forecasting with 
-Deep Learning”**, a Bachelor’s thesis conducted at Karlsruhe Institute of Technology (KIT). 
+This repository contains the implementation for **Cross-Border Electricity Price Forecasting with 
+Deep Learning**, a Bachelor’s thesis conducted at Karlsruhe Institute of Technology (KIT). 
 The study systematically evaluates multiple deep learning models for day-ahead electricity price 
 forecasting (DAEPF) in the Germany-Luxembourg (DE-LU) bidding zone, leveraging data from 15 
 European bidding zones.  
